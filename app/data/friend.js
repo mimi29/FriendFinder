@@ -3,7 +3,7 @@
 var friendArray = [
     {
       name: "Andy",
-      photo: "../images/andy.png",
+      photo: "./images/andy.png",
       scores: [
         "5",
         "1",
@@ -19,7 +19,7 @@ var friendArray = [
     },
     {
       name: "Buzz Lightyear",
-      photo: "../images/buzz-lightyear.jpeg",
+      photo: "./images/buzz-lightyear.jpeg",
       scores: [
         "4",
         "2",
@@ -35,7 +35,7 @@ var friendArray = [
     },
     {
       name: "Hamm",
-      photo: "../images/hamm.png",
+      photo: "./images/hamm.png",
       scores: [
         "5",
         "2",
@@ -51,7 +51,7 @@ var friendArray = [
     },
     {
       name: "Lenny",
-      photo: "../images/lenny.jpeg",
+      photo: "./images/lenny.jpeg",
       scores: [
         "3",
         "3",
@@ -67,7 +67,7 @@ var friendArray = [
     },
     {
       name: "Mr. Potato Head",
-      photo: "../images/mr-potato-head.png",
+      photo: "./images/mr-potato-head.png",
       scores: [
         "4",
         "3",
@@ -83,7 +83,7 @@ var friendArray = [
     },
     {
       name: "Mrs. Potato Head",
-      photo: "../images/mrs-potato-head.png",
+      photo: "./images/mrs-potato-head.png",
       scores: [
         "4",
         "4",
@@ -92,14 +92,14 @@ var friendArray = [
         "2",
         "2",
         "3",
-        "2",
+        "5",
         "4",
         "5"
       ]
     },
     {
       name: "Rex",
-      photo: "../images/Rex.png",
+      photo: "./images/Rex.png",
       scores: [
         "2",
         "3",
@@ -108,18 +108,18 @@ var friendArray = [
         "5",
         "2",
         "3",
-        "1",
+        "4",
         "4",
         "5"
       ]
     },
     {
       name: "Slinky Dog",
-      photo: "../images/slinky-dog.png",
+      photo: "./images/slinky-dog.png",
       scores: [
         "2",
         "3",
-        "1",
+        "2",
         "3",
         "5",
         "2",
@@ -131,7 +131,7 @@ var friendArray = [
     },
     {
       name: "Stretch",
-      photo: "../images/stretch.png",
+      photo: "./images/stretch.png",
       scores: [
         "1",
         "3",
@@ -147,7 +147,7 @@ var friendArray = [
     },
     {
       name: "Woody",
-      photo: "../images/woody.png",
+      photo: "./images/woody.png",
       scores: [
         "5",
         "5",
