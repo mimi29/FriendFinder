@@ -169,7 +169,6 @@
   </div>
 
   <script type="text/javascript">
-    // Chosen CSS
     var config = {
       ".chosen-select": {},
       ".chosen-select-deselect": {
@@ -194,7 +193,7 @@
     $("#submit").on("click", function(event) {
       event.preventDefault();
 
-      // Form validation
+      // validate the form
       function validateForm() {
         var isValid = true;
         $(".form-control").each(function() {
@@ -232,14 +231,13 @@
           ]
         };
 
-        // AJAX post the data to the friends API.
+        // AJAX post the data
         $.post("/api/friends", userData, function(data) {
 
-          // Grab the result from the AJAX post so that the best match's name and photo are displayed.
           $("#matchName").text(data.matchName);
           $("#matchImage").attr("src", data.matchImage);
 
-          // Show the modal with the best match
+          // Show the modal with the best match result
           $("#results-modal").modal("toggle");
 
         });

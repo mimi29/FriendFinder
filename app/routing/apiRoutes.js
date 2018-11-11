@@ -23,15 +23,13 @@ module.exports = function(app) {
 
 		// Examine all existing friends in the list
 		for (var i = 0; i < friends.length; i++) {
-		
-
 			// Compute differenes for each question
 			var diff = 0;
 			for (var j = 0; j < userResponses.length; j++) {
 				diff += Math.abs(friends[i].scores[j] - userResponses[j]);
 			}
 
-			if (diff < totalDifference) {  // best math with diff is smaller value
+			if (diff < totalDifference) {  // best match if diff value is smaller
         bestMatchName = friends[i].name;
 				bestMatchImage = friends[i].photo;
         totalDifference = diff;
